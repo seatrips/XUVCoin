@@ -1,5 +1,5 @@
 XUVMasternode Set Up
-aziz199505 (25) in XUV•  6 days ago
+aziz199505 (25) in XUVâ€¢  6 days ago
 Hi, I would like to show you guys how to set up remote vps masternode for XUVugawa. Just follow my guide you guys will able to set up a masternode less than 30 minutes! :)
 
 Let's get started.
@@ -146,7 +146,7 @@ Let's go back to windows XUVwallet.
 Go to Receive > New Address MN01 > Press OK2017-11-26 00_10_43-New receiving address.png
 Let's copy adress
 2017-11-26 00_11_38-root@innova-2_ ~_.innovacore.png
-Send Exactly 2500 XUV coins. NOTE: Go to your transactions wait for at least 15 confirmations
+Send Exactly 3000 XUV coins. NOTE: Go to your transactions wait for at least 15 confirmations
 
 Getting TxHash and TxIndex
 Now Go to Help > Debug Window > Console > Type masternode outputs
