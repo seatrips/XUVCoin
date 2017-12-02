@@ -1,6 +1,6 @@
 XUVMasternode Set Up
 aziz199505 (25) in XUV•  6 days ago
-Hi, I would like to show you guys how to set up remote vps masternode for XUVugawa. Just follow my guide you guys will able to set up a masternode less than 30 minutes! :)
+Hi, I would like to show you guys how to set up remote vps masternode for XUV. Just follow my guide you guys will able to set up a masternode less than 30 minutes! :)
 
 Let's get started.
 
@@ -25,7 +25,7 @@ We would like to choose Ubuntu 14.04
 Choose Cheapest Server Size :)
 2017-11-25 22_15_45-Deploy Servers - Vultr.com.png
 
-Give it a server name. I named simple XUVugawa-1
+Give it a server name. I named simple XUV-1
 2017-11-25 22_18_41-Deploy Servers - Vultr.com.png
 
 Press Huge button Deploy Now and done. Let's wait until server is finished.
@@ -104,8 +104,8 @@ Press CTRL-X > Press Y > Press [ENTER]
 
 Installing and Compile the Wallet From Source Code
 cd ~
-git clone https://github.com/XUVugawaCoin/XUVugawa
-cd ~/XUVugawa/src
+git clone https://github.com/XUVCoin/XUV
+cd ~/XUV/src
 make -f makefile.unix # Headless
 Note: 10-20 Minutes Wait time here
 
@@ -122,7 +122,8 @@ Now go to Help> Debug Window > Console > Type masternode genkey and you should s
 
 Configuring XUVFor a Masternode
 Now do this.
-nano ~/.XUVugawa/XUVugawa.conf
+nano ~/.XUV
+/XUV.conf
 Copy and paste this.
 
 rpcuser=putanyworkyoulike
