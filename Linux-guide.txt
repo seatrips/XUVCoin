@@ -104,7 +104,7 @@ Press CTRL-X > Press Y > Press [ENTER]
 
 Installing and Compile the Wallet From Source Code
 cd ~
-git clone https://github.com/XUVCoin/XUV
+git clone https://github.com/XUVCoin/XUVCoin.git
 cd ~/XUV/src
 make -f makefile.unix # Headless
 Note: 10-20 Minutes Wait time here
