@@ -165,7 +165,7 @@ masternodeprivkey=[your masternode private key from step 11 my is 69TcHWwv9ZJK9g
 ```
 Press CTRL-X > Press Y > Press [ENTER]
 
-We are done configuring the masternode now let's started XUVmasternode!
+## We are done configuring the masternode now let's started XUVmasternode!
 ```
 XUVd
 ```
