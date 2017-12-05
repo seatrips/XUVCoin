@@ -142,7 +142,7 @@ masternode genkey
 and you should see output, this is going to be your masternode private key
 copy it and save it somewhere
 
-## Configuring XUVFor a Masternode
+## Configuring XUV For a Masternode
 Now do this.
 ```
 cd ~
@@ -169,11 +169,12 @@ XUVd
 ```
 Great we are almost finished!
 
-Configuring Masternode Cold Wallet
+## Configuring Masternode Cold Wallet
 Let's go back to windows XUVwallet.
-Go to Receive > New Address MN01 > Press OK
+Go to Receive > New Address, name it MN01 > Press OK
 Let's copy adress
-Send Exactly 3000 XUV coins. NOTE: Go to your transactions wait for at least 15 confirmations
+Send Exactly 3000 XUV coins. 
+NOTE: Go to your transactions wait for at least 15 confirmations
 
 Getting TxHash and TxIndex
 Now Go to Help > Debug Window > Console > Type 
