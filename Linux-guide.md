@@ -135,7 +135,12 @@ XUVd
 
 ## Getting mastenrode private key
 Go to your windows XUVwallet and open up
-Now go to Help> Debug Window > Console > Type masternode genkey and you should see output this is going to be your masternode private key copy it and save it somewhere
+Now go to Help> Debug Window > Console > Type 
+```
+masternode genkey 
+```
+and you should see output, this is going to be your masternode private key
+copy it and save it somewhere
 
 ## Configuring XUVFor a Masternode
 Now do this.
