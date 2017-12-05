@@ -122,7 +122,7 @@ masternode=1
 masternodeprivkey=[your masternode private key from step 11 my is 69TcHWwv9ZJK9gfxBAr2bbQQSTY7cmTy9DGpFsgBLt3VThtdPfe]
 ```
 
-## We are done configuring the masternode now let's started XUVmasternode!
+## We are done configuring the masternode now let's start the XUV Masternode!
 ```
 XUVd
 ```
