@@ -163,27 +163,30 @@ Great we are almost finished!
 
 Configuring Masternode Cold Wallet
 Let's go back to windows XUVwallet.
-Go to Receive > New Address MN01 > Press OK2017-11-26 00_10_43-New receiving address.png
+Go to Receive > New Address MN01 > Press OK
 Let's copy adress
-2017-11-26 00_11_38-root@innova-2_ ~_.innovacore.png
 Send Exactly 3000 XUV coins. NOTE: Go to your transactions wait for at least 15 confirmations
 
 Getting TxHash and TxIndex
-Now Go to Help > Debug Window > Console > Type masternode outputs
+Now Go to Help > Debug Window > Console > Type 
+```
+masternode outputs
+```
+
 You should see some thing like this but different values
+```
 {
     "1e665c23487ec14a147170ee4b4e24255ed1f9d032a49bb16df7b8c1f9fasdf8" : "0",
 }
+```
 Copy this information and save it and exit out from console.
 
 Creating Masternode from windows.
 Now go back to your windows wallet go to Masternodes > Create
-Fill out like this
-2017-11-26 00_20_49-Add_Edit XUVNode.png
+Fill out.
 Press OK
 
 Now Press Update
-2017-11-26 00_21_58-Innova Core - Wallet.png
 
 After that press Start All
 
