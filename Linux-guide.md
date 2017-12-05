@@ -121,14 +121,11 @@ masternodeaddr=[your-server-ip-address-here my is 104.238.164.50 ]:21117
 masternode=1
 masternodeprivkey=[your masternode private key from step 11 my is 69TcHWwv9ZJK9gfxBAr2bbQQSTY7cmTy9DGpFsgBLt3VThtdPfe]
 ```
-Press CTRL-X > Press Y > Press [ENTER]
 
 ## We are done configuring the masternode now let's started XUVmasternode!
 ```
 XUVd
 ```
-Great we are almost finished!
-
 ## Configuring Masternode Cold Wallet
 Let's go back to local XUVwallet.
 Go to Receive > New Address, name it MN01 > Press OK
