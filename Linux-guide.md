@@ -112,7 +112,9 @@ sudo chown root:root /var/swap.img
 ## Now we going to use nano. Nano is linux notepad ##
 ```
 sudo nano /etc/fstab
+```
 Press bottom arrow and scroll to the bottom and paste this
+```
 /var/swap.img none swap sw 0 0
 ```
 Press CTRL-X > Press Y > Press [ENTER]
