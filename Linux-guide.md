@@ -145,6 +145,7 @@ copy it and save it somewhere
 ## Configuring XUVFor a Masternode
 Now do this.
 ```
+cd ~
 cd .XUV
 nano XUV.conf
 ```
@@ -163,7 +164,9 @@ masternodeprivkey=[your masternode private key from step 11 my is 69TcHWwv9ZJK9g
 Press CTRL-X > Press Y > Press [ENTER]
 
 We are done configuring the masternode now let's started XUVmasternode!
+```
 XUVd
+```
 Great we are almost finished!
 
 Configuring Masternode Cold Wallet
