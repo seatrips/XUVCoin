@@ -1,5 +1,5 @@
 # XUV Masternode Set Up
-Created the masternodes with ubuntu 16.04
+Use Ubuntu 16.04
 Can all be done in root
 
 
