@@ -146,13 +146,16 @@ You should see some thing like this but different values
 ```
 Copy this information and save it and exit out from console.
 
-Creating Masternode in local wallet
+## Creating Masternode in local wallet
 Now go back to your local wallet, go to Masternodes > Create
 and Fill out and click oke.
 you can also just edit the masternode.conf in XUV system folder
 
-Now Press Update in masternode section of local wallet
+Now Press Update in "My Masternodes" section of local wallet
 
-After that press Start All or when adding one of more just click start when having selected the new node
+After that press 
+```
+Start All
+```
 
-Your masternode is completed
+### Your masternode is completed Happy Mining!!
