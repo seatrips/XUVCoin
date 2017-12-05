@@ -55,18 +55,18 @@ after that copy or type the password. Copy the password from vultr and paste to 
 
 It is just simply copy paste from now on. Just copy what I have and paste to the terminal :).
 
-## Let's update and upgrade the server ##
+## Let's update and upgrade the server
 ```
 sudo apt-get update -y
 apt-get upgrade -y
 ```
 
-## Let's install essentials ##
+## Let's install essentials
 ```
 sudo apt-get install -y build-essential libtool autotools-dev pkg-config libssl-dev libboost-all-dev autoconf automake
 ```
 
-## Installing libsecp256k1 ##
+## Installing libsecp256k1
 ```
 sudo apt-get install git
 git clone https://github.com/bitcoin-core/secp256k1
@@ -78,29 +78,29 @@ make
 sudo make install
 ```
 
-## Install libminiupnpc ##
+## Install libminiupnpc
 ```
 sudo apt-get install libqt4-dev libminiupnpc-dev
 ```
 
-## Install libgmp ##
+## Install libgmp
 ```
 sudo apt-get install libgmp-dev
 ```
 
-## Install Openssl ##
+## Install Openssl
 ```
 sudo apt-get install openssl
 ```
 
-## Install Berkeley 4.8 ##
+## Install Berkeley 4.8
 ```
 apt-get install software-properties-common && add-apt-repository ppa:bitcoin/bitcoin
 apt-get update
 apt-get install libdb4.8-dev libdb4.8++-dev
 ```
 
-## Allocating Memory with Swap ##
+## Allocating Memory with Swap
 ```
 sudo dd if=/dev/zero of=/var/swap.img bs=1024k count=1000
 sudo mkswap /var/swap.img
@@ -117,7 +117,7 @@ Press bottom arrow and scroll to the bottom and paste this
 ```
 Press CTRL-X > Press Y > Press [ENTER]
 
-## Installing and Compile the Wallet From Source Code ##
+## Installing and Compile the Wallet From Source Code
 ```
 cd ~
 git clone https://github.com/XUVCoin/XUVCoin.git
@@ -126,18 +126,18 @@ make -f makefile.unix # Headless
 ```
 Note: 10-20 Minutes Wait time here
 
-## Command and Running XUVd ##
+## Command and Running XUVd
 ```
 strip XUVd
 sudo cp XUVd /usr/bin/
 XUVd
 ```
 
-## Getting mastenrode private key ##
+## Getting mastenrode private key
 Go to your windows XUVwallet and open up
 Now go to Help> Debug Window > Console > Type masternode genkey and you should see output this is going to be your masternode private key copy it and save it somewhere
 
-## Configuring XUVFor a Masternode ##
+## Configuring XUVFor a Masternode
 Now do this.
 ```
 cd .XUV
