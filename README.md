@@ -154,7 +154,7 @@ Create
 ```
 and Fill in the needed data and click 
 ```
-oke.
+oke
 ```
 you can also just edit the masternode.conf in XUV system folder
 
